@@ -28,13 +28,17 @@ namespace AISystemsModule.Helpers
 
         public static List<Node> GenerateContentRecommendations(Tree tree, User currentUser, MeasureType mType)
         {
+            return GenerateContentRecommendations(tree.ToList(), currentUser, mType);
+        }
+
+        public static List<Node> GenerateContentRecommendations(List<Node> nodes, User currentUser, MeasureType mType)
+        {
             if (currentUser.Chosen.Count == 0)
             {
                 return new List<Node>();
             }
 
-            List<Node> nodes = tree
-                .ToList()
+            nodes = nodes
                 .Except(currentUser.Chosen)
                 .Except(currentUser.BlackList)
                 .ToList();

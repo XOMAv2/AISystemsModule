@@ -11,8 +11,12 @@ namespace AISystemsModule.Helpers
     {
         public static List<Node> ParametricSearch(Tree tree, SearchRanges ranges)
         {
-            return tree
-                .ToList()
+            return ParametricSearch(tree.ToList(), ranges);
+        }
+
+        public static List<Node> ParametricSearch(List<Node> nodes, SearchRanges ranges)
+        {
+            return nodes
                 .Where(n => n.Attributes != null)
                 .Select(n =>
                 {
