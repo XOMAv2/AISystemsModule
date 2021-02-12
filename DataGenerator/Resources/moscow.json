@@ -1,0 +1,405 @@
+{
+    "Title": "Москва",
+    "Children": [
+        {
+            "Title": "Новая Москва",
+            "Children": [
+                {
+                    "Title": "НАО",
+                    "Children": [
+                        { "Title": "Внуковское", "Children": [] },
+                        { "Title": "Воскресенское", "Children": [] },
+                        { "Title": "Десеновское", "Children": [] },
+                        { "Title": "Кокошкино", "Children": [] },
+                        { "Title": "Марушкинское", "Children": [] },
+                        { "Title": "Московский", "Children": [] },
+                        { "Title": "Мосренген", "Children": [] },
+                        { "Title": "Рязановское", "Children": [] },
+                        { "Title": "Сосенское", "Children": [] },
+                        { "Title": "Филимонковское", "Children": [] },
+                        { "Title": "Щербинка", "Children": [] }
+                    ]
+                },
+                {
+                    "Title": "ТАО",
+                    "Children": [
+                        { "Title": "Вороновское", "Children": [] },
+                        { "Title": "Киевский", "Children": [] },
+                        { "Title": "Кленовское", "Children": [] },
+                        { "Title": "Краснопахорское", "Children": [] },
+                        { "Title": "Михайлово-Ярцевское", "Children": [] },
+                        { "Title": "Новофедоровское", "Children": [] },
+                        { "Title": "Первомайское", "Children": [] },
+                        { "Title": "Роговское", "Children": [] },
+                        { "Title": "Троицк", "Children": [] },
+                        { "Title": "Щаповское", "Children": [] }
+                    ]
+                }
+            ]
+        },
+        {
+            "Title": "Старая Москва",
+            "Children": [
+                {
+                    "Title": "ЦАО",
+                    "Children": [
+                        {
+                            "Title": "Центр (Китай-город)",
+                            "Children": [
+                                { "Title": "Китай-город", "Children": [] },
+                                { "Title": "Зарядье", "Children": [] },
+                                { "Title": "Кремль (внутри)", "Children": [] }
+                            ]
+                        },
+                        {
+                            "Title": "Замоскворечье",
+                            "Children": [
+                                { "Title": "Замоскворечье (внутри Садового)", "Children": [] },
+                                { "Title": "Замоскворечье (вне Садового)", "Children": [] }
+                            ]
+                        },
+                        {
+                            "Title": "Якиманка",
+                            "Children": [
+                                { "Title": "Якиманка (внутри Садового)", "Children": [] },
+                                { "Title": "Якиманка (вне Садового)", "Children": [] },
+                                { "Title": "Парк искусств ЦДХ", "Children": [] },
+                                { "Title": "Парк Горького", "Children": [] },
+                                { "Title": "Нескучный сад", "Children": [] }
+                            ]
+                        },
+                        {
+                            "Title": "Хамовники",
+                            "Children": [
+                                { "Title": "Хамовники (внутри Садового)", "Children": [] },
+                                { "Title": "Хамовники (вне Садового)", "Children": [] },
+                                { "Title": "Новодевичий", "Children": [] },
+                                { "Title": "Девичье поле", "Children": [] },
+                                { "Title": "Усадьба Трубецких", "Children": [] },
+                                { "Title": "Лужники", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Арбат", "Children": [] },
+                        {
+                            "Title": "Пресненский",
+                            "Children": [
+                                { "Title": "Пресненский (внутри Садового)", "Children": [] },
+                                { "Title": "Пресненский (вне Садового)", "Children": [] },
+                                { "Title": "Зоопарк", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Сити", "Children": [] },
+                        {
+                            "Title": "Тверской",
+                            "Children": [
+                                { "Title": "Тверской (внутри Садового)", "Children": [] },
+                                { "Title": "Тверской (вне Садового)", "Children": [] },
+                                { "Title": "Сад Эрмитаж", "Children": [] }
+                            ]
+                        },
+                        {
+                            "Title": "Мещанский",
+                            "Children": [
+                                { "Title": "Мещанский (внутри Садового)", "Children": [] },
+                                { "Title": "Мещанский (вне Садового)", "Children": [] },
+                                { "Title": "Екатерининский парк", "Children": [] },
+                                { "Title": "Аптекарский огород", "Children": [] }
+                            ]
+                        },
+                        {
+                            "Title": "Красносельский",
+                            "Children": [
+                                { "Title": "Красносельский (внутри Садового)", "Children": [] },
+                                { "Title": "Красносельский (вне Садового)", "Children": [] }
+                            ]
+                        },
+                        {
+                            "Title": "Басманный",
+                            "Children": [
+                                { "Title": "Басманный (внутри Садового)", "Children": [] },
+                                { "Title": "Басманный (вне Садового)", "Children": [] }
+                            ]
+                        },
+                        {
+                            "Title": "Таганский",
+                            "Children": [
+                                { "Title": "Таганский (внутри Садового)", "Children": [] },
+                                { "Title": "Таганский (вне Садового)", "Children": [] }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Title": "ЮАО",
+                    "Children": [
+                        { "Title": "Даниловский", "Children": [] },
+                        { "Title": "Донской", "Children": [] },
+                        { "Title": "ЗИЛ", "Children": [] },
+                        { "Title": "Нагатинский Затон", "Children": [] },
+                        { "Title": "Нагорный", "Children": [] },
+                        { "Title": "Нагатино-Садовники", "Children": [] },
+                        { "Title": "Музей-Заповедник \u0027Коломенское\u0027", "Children": [] },
+                        { "Title": "Москворечье-Сабурово", "Children": [] },
+                        { "Title": "Братеево", "Children": [] },
+                        {
+                            "Title": "Чертаново",
+                            "Children": [
+                                { "Title": "Северное Чертаново", "Children": [] },
+                                { "Title": "Центральное Чертаново", "Children": [] },
+                                { "Title": "Южное Чертаново", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Царицыно", "Children": [] },
+                        {
+                            "Title": "Парк \u0027Царицыно\u0027",
+                            "Children": [
+                                { "Title": "Музей-Заповедник \u0027Царицыно\u0027", "Children": [] },
+                                { "Title": "Бирюлевский дендропарк", "Children": [] }
+                            ]
+                        },
+                        {
+                            "Title": "Бирюлево",
+                            "Children": [
+                                { "Title": "Бирюлево Восточное", "Children": [] },
+                                { "Title": "Бирюлево Западное", "Children": [] }
+                            ]
+                        },
+                        {
+                            "Title": "Орехово-Борисово",
+                            "Children": [
+                                { "Title": "Орехово-Борисово Северное", "Children": [] },
+                                { "Title": "Орехово-Борисово Южное", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Зябликово", "Children": [] }
+                    ]
+                },
+                {
+                    "Title": "ЮЗАО",
+                    "Children": [
+                        { "Title": "Гагаринский", "Children": [] },
+                        { "Title": "Академический", "Children": [] },
+                        { "Title": "Котловка", "Children": [] },
+                        { "Title": "Ломоносовский", "Children": [] },
+                        { "Title": "Черемушки", "Children": [] },
+                        { "Title": "Зюзино", "Children": [] },
+                        {
+                            "Title": "Обручевский",
+                            "Children": [
+                                { "Title": "Район \u0027Обручевский\u0027", "Children": [] },
+                                { "Title": "Воронцовский парк", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Коньково", "Children": [] },
+                        { "Title": "Теплый Стан", "Children": [] },
+                        { "Title": "Ясенево", "Children": [] },
+                        { "Title": "Битцевский Лесопарк", "Children": [] },
+                        {
+                            "Title": "Бутово",
+                            "Children": [
+                                { "Title": "Северное Бутово", "Children": [] },
+                                { "Title": "Южное Бутово", "Children": [] }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Title": "ЗАО",
+                    "Children": [
+                        { "Title": "Дорогомилово", "Children": [] },
+                        { "Title": "Парк Победы (Поклонная гора)", "Children": [] },
+                        { "Title": "Раменки", "Children": [] },
+                        {
+                            "Title": "Воробьевы горы",
+                            "Children": [
+                                { "Title": "Заказник \u0027Воробьевы горы\u0027", "Children": [] },
+                                { "Title": "Дворец детского творчества", "Children": [] },
+                                { "Title": "МГУ", "Children": [] }
+                            ]
+                        },
+                        {
+                            "Title": "Фили",
+                            "Children": [
+                                { "Title": "Парк Фили", "Children": [] },
+                                { "Title": "Филевский парк", "Children": [] },
+                                { "Title": "Фили-Давыдково", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Очаково-Матвеевское", "Children": [] },
+                        { "Title": "Проспект Вернадского", "Children": [] },
+                        { "Title": "Тропарево-Никулино", "Children": [] },
+                        { "Title": "Крылатское", "Children": [] },
+                        { "Title": "Можайский", "Children": [] },
+                        { "Title": "Кунцево", "Children": [] },
+                        { "Title": "Солнцево", "Children": [] },
+                        { "Title": "Новопеределкино", "Children": [] },
+                        { "Title": "Внуково", "Children": [] }
+                    ]
+                },
+                {
+                    "Title": "СЗАО",
+                    "Children": [
+                        { "Title": "Хорошево-Мневники", "Children": [] },
+                        { "Title": "Щукино", "Children": [] },
+                        { "Title": "Покровское-Стрешнево", "Children": [] },
+                        { "Title": "Строгино", "Children": [] },
+                        {
+                            "Title": "Тушино",
+                            "Children": [
+                                { "Title": "Южное Тушино", "Children": [] },
+                                { "Title": "Северное Тушино", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Митино", "Children": [] },
+                        { "Title": "Куркино", "Children": [] }
+                    ]
+                },
+                {
+                    "Title": "САО",
+                    "Children": [
+                        { "Title": "Беговой", "Children": [] },
+                        { "Title": "Савеловский", "Children": [] },
+                        { "Title": "Хорошевский", "Children": [] },
+                        { "Title": "Аэропорт", "Children": [] },
+                        { "Title": "Сокол", "Children": [] },
+                        { "Title": "Тимирязевский", "Children": [] },
+                        { "Title": "Парк МСХА Тимирязева", "Children": [] },
+                        { "Title": "Коптево", "Children": [] },
+                        { "Title": "Войковский", "Children": [] },
+                        { "Title": "Головинский", "Children": [] },
+                        {
+                            "Title": "Дегунино",
+                            "Children": [
+                                { "Title": "Бескудниковский", "Children": [] },
+                                { "Title": "Западное Дегунино", "Children": [] },
+                                { "Title": "Восточное Дегунино", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Левобережный", "Children": [] },
+                        { "Title": "Ховрино", "Children": [] },
+                        { "Title": "Дмитровский", "Children": [] },
+                        { "Title": "Молжаниновский", "Children": [] }
+                    ]
+                },
+                {
+                    "Title": "СВАО",
+                    "Children": [
+                        { "Title": "Марьина роща", "Children": [] },
+                        { "Title": "Бутырский", "Children": [] },
+                        { "Title": "Алексеевский", "Children": [] },
+                        {
+                            "Title": "Останкинский",
+                            "Children": [
+                                { "Title": "Район \u0027Останкинский\u0027", "Children": [] },
+                                { "Title": "ВДНХ", "Children": [] },
+                                { "Title": "Парк \u0027Останкино\u0027", "Children": [] },
+                                { "Title": "Ботанический сад", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Марфино", "Children": [] },
+                        { "Title": "Ростокино", "Children": [] },
+                        { "Title": "Отрадное", "Children": [] },
+                        { "Title": "Свиблово", "Children": [] },
+                        { "Title": "Ярославский", "Children": [] },
+                        { "Title": "Бабушкинский", "Children": [] },
+                        { "Title": "Алтуфьевский", "Children": [] },
+                        {
+                            "Title": "Медведково",
+                            "Children": [
+                                { "Title": "Южное Медведково", "Children": [] },
+                                { "Title": "Северное Медведково", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Бибирево", "Children": [] },
+                        { "Title": "Лианозово", "Children": [] },
+                        { "Title": "Лосиноостровский", "Children": [] },
+                        { "Title": "Северный", "Children": [] }
+                    ]
+                },
+                {
+                    "Title": "ВАО",
+                    "Children": [
+                        {
+                            "Title": "Сокольники",
+                            "Children": [
+                                { "Title": "Район \u0027Сокольники\u0027", "Children": [] },
+                                { "Title": "Парк \u0027Сокольники\u0027", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Соколиная Гора", "Children": [] },
+                        { "Title": "Перово", "Children": [] },
+                        { "Title": "Преображенское", "Children": [] },
+                        { "Title": "Богородское", "Children": [] },
+                        {
+                            "Title": "Измайлово",
+                            "Children":  [
+                                { "Title": "Район \u0027Измайлово\u0027", "Children": [] },
+                                { "Title": "Измайловский кремль", "Children": [] },
+                                { "Title": "Измайловский остров", "Children": [] },
+                                { "Title": "Парк \u0027Измайлово\u0027", "Children": [] },
+                                { "Title": "Измайловский лесопарк", "Children": [] },
+                                { "Title": "Восточное Измайлово", "Children": [] },
+                                { "Title": "Северное Измайлово", "Children": [] }
+                            ]                        
+                        },
+                        { "Title": "Новогиреево", "Children": [] },
+                        { "Title": "Ивановское", "Children": [] },
+                        { "Title": "Парк Кусково", "Children": [] },
+                        { "Title": "Метрогородок", "Children": [] },
+                        { "Title": "Гольяново", "Children": [] },
+                        { "Title": "Вешняки", "Children": [] },
+                        { "Title": "Лосиный остров", "Children": [] },
+                        { "Title": "Новокосино", "Children": [] },
+                        { "Title": "Косино-Ухтомский", "Children": [] },
+                        { "Title": "Некрасовка", "Children": [] },
+                        { "Title": "Восточный", "Children": [] }
+                    ]
+                },
+                {
+                    "Title": "ЮВАО",
+                    "Children": [
+                        {
+                            "Title": "Лефортово",
+                            "Children": [
+                                { "Title": "Район \u0027Лефортово\u0027", "Children": [] },
+                                { "Title": "Парк \u0027Лефортово\u0027", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Южнопортовый", "Children": [] },
+                        { "Title": "Нижегородский", "Children": [] },
+                        { "Title": "Текстильщики", "Children": [] },
+                        { "Title": "Печатники", "Children": [] },
+                        { "Title": "Рязанский", "Children": [] },
+                        {
+                            "Title": "Кузьминки",
+                            "Children": [
+                                { "Title": "Район \u0027Кузьминки\u0027", "Children": [] },
+                                { "Title": "Лесопарк \u0027Кузьминки\u0027", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Люблино", "Children": [] },
+                        { "Title": "Марьино", "Children": [] },
+                        {
+                            "Title": "Выхино-Жулебино",
+                            "Children": [
+                                { "Title": "Выхино", "Children": [] },
+                                { "Title": "Жулебино", "Children": [] }
+                            ]
+                        },
+                        { "Title": "Капотня", "Children": [] }
+                    ]
+                },
+                {
+                    "Title": "Зеленоград",
+                    "Children": [
+                        { "Title": "Крюково", "Children": [] },
+                        { "Title": "Матушкино", "Children": [] },
+                        { "Title": "Савелки", "Children": [] },
+                        { "Title": "Силино", "Children": [] },
+                        { "Title": "Старое Крюково", "Children": [] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

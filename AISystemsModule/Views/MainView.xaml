@@ -1,0 +1,395 @@
+﻿<Window x:Class="AISystemsModule.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AISystemsModule.ViewModels"
+        xmlns:uc="clr-namespace:AISystemsModule.UserControls"
+        mc:Ignorable="d"
+        Title="MainView" Height="685" Width="1750">
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
+
+    <Window.Resources>
+        <Style TargetType="ScrollBar">
+            <Setter Property="Border.Background" Value="Transparent"/>
+        </Style>
+    </Window.Resources>
+
+    <ScrollViewer
+        HorizontalScrollBarVisibility="Auto"
+        VerticalScrollBarVisibility="Disabled">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="24" />
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="24" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="24" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="24" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="24" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="24" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <ScrollViewer
+                Grid.Column="1"
+                HorizontalScrollBarVisibility="Disabled"
+                VerticalScrollBarVisibility="Auto">
+
+                <StackPanel>
+                    <TextBlock
+                        Text="Параметры для расчёта мер близости"
+                        Style="{StaticResource TitleTextBlockStyle}" />
+
+                    <TextBlock
+                        Text="Путь к json-файлу с деревом"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            Text="{Binding SourcePath, UpdateSourceTrigger=PropertyChanged}" />
+                        <Button
+                            Content=" ... "
+                            Margin="4 4 0 0"
+                            Width="24"
+                            Command="{Binding OpenFileDialogCommand}" />
+                    </StackPanel>
+
+                    <StackPanel
+                        Orientation="Horizontal"
+                        FlowDirection="RightToLeft">
+                        <Button
+                            Content=" Загрузить дерево "
+                            Margin="28 24 4 0"
+                            Command="{Binding LoadTreeCommand}" />
+                    </StackPanel>
+
+                    <TextBlock
+                        Text="Заголовок начальной ноды"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <TextBox
+                        Style="{StaticResource PlaceholderTextBoxStyle}"
+                        Text="{Binding Node1Title, UpdateSourceTrigger=PropertyChanged}" />
+
+                    <TextBlock
+                        Text="Заголовок конечной ноды"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <TextBox
+                        Style="{StaticResource PlaceholderTextBoxStyle}"
+                        Text="{Binding Node2Title, UpdateSourceTrigger=PropertyChanged}" />
+
+                    <StackPanel
+                        Orientation="Horizontal"
+                        FlowDirection="RightToLeft">
+                        <Button
+                            Content=" Вычислить расстояние "
+                            Margin="28 24 4 24"
+                            Command="{Binding CalcDistanceCommand}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding ResultVisibility}">
+                        <TextBlock
+                            Text="Результаты расчёта мер близости"
+                            Margin="0 24 0 0"
+                            Style="{StaticResource TitleTextBlockStyle}" />
+
+                        <TextBlock
+                            Text="Евклидово расстояние"
+                            Style="{StaticResource BodyTextBlockStyle}" />
+                        <TextBox
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            IsReadOnly="True"
+                            Text="{Binding EuclideanDistance, UpdateSourceTrigger=PropertyChanged}" />
+
+                        <TextBlock
+                            Text="Манхетеннское расстояние"
+                            Style="{StaticResource BodyTextBlockStyle}" />
+                        <TextBox
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            IsReadOnly="True"
+                            Text="{Binding ManhattanDistance, UpdateSourceTrigger=PropertyChanged}" />
+
+                        <TextBlock
+                            Text="Расстояние по дереву"
+                            Style="{StaticResource BodyTextBlockStyle}" />
+                        <TextBox
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            IsReadOnly="True"
+                            Text="{Binding TreeDistance, UpdateSourceTrigger=PropertyChanged}" />
+
+                        <TextBlock
+                            Text="Линейный коэффициент корреляции"
+                            Style="{StaticResource BodyTextBlockStyle}" />
+                        <TextBox
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            IsReadOnly="True"
+                            Margin="0 4 0 24"
+                            Text="{Binding CorrelationDistance, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+
+            <DockPanel Grid.Column="3">
+                <TextBlock
+                    DockPanel.Dock="Top"
+                    Text="Дерево районов Москвы"
+                    Style="{StaticResource TitleTextBlockStyle}" />
+                <TreeView
+                        Margin="0 24 0 24"
+                        ItemsSource="{Binding MoscowTreeView, UpdateSourceTrigger=PropertyChanged}">
+                    <TreeView.ItemContainerStyle>
+                        <Style TargetType="TreeViewItem">
+                            <Setter Property="Margin" Value="0 0 10 0"/>
+                        </Style>
+                    </TreeView.ItemContainerStyle>
+                </TreeView>
+            </DockPanel>
+
+            <ScrollViewer
+                Grid.Column="5"
+                HorizontalScrollBarVisibility="Disabled"
+                VerticalScrollBarVisibility="Auto">
+
+                <StackPanel>
+                    <TextBlock
+                        Text="Пользователи"
+                        Style="{StaticResource TitleTextBlockStyle}" />
+
+                    <uc:UserList
+                        Margin="0 24 0 0"
+                        AddedUsers="{Binding Users}"
+                        CurrentUser="{Binding CurrentUser, Mode=TwoWay}"/>
+
+                    <TextBlock
+                        Text="Ноды, выбранные пользователем"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+
+                    <uc:ChosenList
+                        Chosen="{Binding CurrentUser.Chosen}"
+                        BlackList="{Binding CurrentUser.BlackList}" />
+
+                    <TextBlock
+                        Text="Ноды, которые пользователь не желает видеть"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+
+                    <uc:BlackList
+                        Margin="0 0 0 24"
+                        BlackListColl="{Binding CurrentUser.BlackList}" />
+                </StackPanel>
+            </ScrollViewer>
+
+            <ScrollViewer
+                Grid.Column="7"
+                HorizontalScrollBarVisibility="Disabled"
+                VerticalScrollBarVisibility="Auto">
+
+                <StackPanel>
+                    <TextBlock
+                        Text="Рекомендации"
+                        Style="{StaticResource TitleTextBlockStyle}" />
+
+                    <TextBlock
+                        Text="Коллаборативной фильтрация"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+
+                    <ListBox ItemsSource="{Binding CollabRecommendations}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <DockPanel Width="386">
+                                    <TextBlock
+                                        Text="{Binding Title}"
+                                        Width="auto"
+                                        Margin="4"
+                                        Style="{StaticResource BodyTextBlockStyle}" />
+                                </DockPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <StackPanel
+                        Orientation="Horizontal"
+                        FlowDirection="RightToLeft">
+                        <Button
+                            Content=" Обновить "
+                            Margin="0 24 0 0"
+                            Command="{Binding CollabRefreshCommand}" />
+                    </StackPanel>
+
+                    <TextBlock
+                        Text="Мера близости для контентно-ориентированной фильтрации"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <ComboBox
+                        SelectedIndex="{Binding SelectedMeasureType}"
+                        ItemsSource="{Binding MeasureTypes}" />
+
+                    <TextBlock
+                        Text="Контентно-ориентированная фильтрация"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+
+                    <ListBox ItemsSource="{Binding ContentRecommendations}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <DockPanel Width="386">
+                                    <TextBlock
+                                        Text="{Binding Distance}"
+                                        Width="auto"
+                                        Margin="4"
+                                        DockPanel.Dock="Right"
+                                        VerticalAlignment="Center"
+                                        Style="{StaticResource BodyTextBlockStyle}" />
+                                    <TextBlock
+                                        Text="{Binding Title}"
+                                        Width="auto"
+                                        Margin="4 4 0 4"
+                                        Style="{StaticResource BodyTextBlockStyle}" />
+                                </DockPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <StackPanel
+                        Orientation="Horizontal"
+                        FlowDirection="RightToLeft">
+                        <Button
+                            Content=" Обновить "
+                            Margin="0 24 0 24"
+                            Command="{Binding ContentRefreshCommand}" />
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+
+            <ScrollViewer
+                Grid.Column="9"
+                HorizontalScrollBarVisibility="Disabled"
+                VerticalScrollBarVisibility="Auto">
+
+                <StackPanel>
+                    <TextBlock
+                        Text="Параметрический поиск"
+                        Style="{StaticResource TitleTextBlockStyle}" />
+
+                    <TextBlock
+                        Text="Средняя цена квадратного метра"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox
+                            Margin="0 4 4 0"
+                            Width="198"
+                            Tag="От"
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            Text="{Binding AvgPriceFromString, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox
+                            Width="198"
+                            Tag="До"
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            Text="{Binding AvgPriceToString, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <TextBlock
+                        Text="Максимальная удалённость до станции метро"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox
+                            Margin="0 4 4 0"
+                            Width="198"
+                            Tag="От"
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            Text="{Binding MaxMetroDistanceFromString, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox
+                            Width="198"
+                            Tag="До"
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            Text="{Binding MaxMetroDistanceToString, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <TextBlock
+                        Text="Количество школ на душу населения"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox
+                            Margin="0 4 4 0"
+                            Width="198"
+                            Tag="От"
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            Text="{Binding SchoolsNumberFromString, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox
+                            Width="198"
+                            Tag="До"
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            Text="{Binding SchoolsNumberToString, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <TextBlock
+                        Text="Лучший рейтинг районного университета"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox
+                            Margin="0 4 4 0"
+                            Width="198"
+                            Tag="От"
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            Text="{Binding BestUniversityRatingFromString, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox
+                            Width="198"
+                            Tag="До"
+                            Style="{StaticResource PlaceholderTextBoxStyle}"
+                            Text="{Binding BestUniversityRatingToString, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <TextBlock
+                        Text="Есть ли в районе объекты культурного наследия"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <ComboBox
+                        SelectedValue="{Binding SelectedHeritageOptionString}"
+                        ItemsSource="{Binding HeritageOptions}">
+                    </ComboBox>
+
+                    <TextBlock
+                        Text="Характерные для района архитектурные стили"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <uc:ArchitecturalStyleList
+                        SelectedStyles="{Binding SelectedArchStyles, Mode=OneWayToSource}"
+                        Margin="0 4 0 0" />
+
+                    <StackPanel
+                        Orientation="Horizontal"
+                        FlowDirection="RightToLeft">
+                        <Button
+                            Content=" Поиск по параметрам "
+                            Margin="28 24 0 0"
+                            Command="{Binding SearchCommand}" />
+                    </StackPanel>
+                    
+                    <ListBox
+                        Margin="0 24 0 24"
+                        ItemsSource="{Binding SearchResults}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <DockPanel Width="386">
+                                    <TextBlock
+                                        Text="{Binding Beans}"
+                                        Width="auto"
+                                        Margin="4"
+                                        DockPanel.Dock="Right"
+                                        VerticalAlignment="Center"
+                                        Style="{StaticResource BodyTextBlockStyle}"/>
+                                    <TextBlock
+                                        Text="{Binding Title}"
+                                        Width="auto"
+                                        Margin="4 4 0 4"
+                                        Style="{StaticResource BodyTextBlockStyle}" />
+                                </DockPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </ScrollViewer>
+</Window>

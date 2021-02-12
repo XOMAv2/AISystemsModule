@@ -1,0 +1,2592 @@
+{
+  "Title": "Москва",
+  "Children": [
+    {
+      "Title": "Новая Москва",
+      "Children": [
+        {
+          "Title": "НАО",
+          "Children": [
+            {
+              "Title": "Внуковское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1387781.5682942895,
+                "MaxDistanceToTheMetroStation": 9707.586759099544,
+                "SchoolsNumberPerCapita": 0.009868422195719751,
+                "BestRatingOfTheLocalUniversity": 4401,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Воскресенское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 190336.58016023066,
+                "MaxDistanceToTheMetroStation": 1968.8128530833928,
+                "SchoolsNumberPerCapita": 0.00790364666697739,
+                "BestRatingOfTheLocalUniversity": 3826,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Десеновское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 803381.5503881227,
+                "MaxDistanceToTheMetroStation": 3013.482499873956,
+                "SchoolsNumberPerCapita": 0.006241967906822436,
+                "BestRatingOfTheLocalUniversity": 4062,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 6]
+              }
+            },
+            {
+              "Title": "Кокошкино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1622630.7264075757,
+                "MaxDistanceToTheMetroStation": 2716.1780957673573,
+                "SchoolsNumberPerCapita": 0.007084104889577304,
+                "BestRatingOfTheLocalUniversity": 3757,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Марушкинское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 225634.32329596687,
+                "MaxDistanceToTheMetroStation": 5641.785560474631,
+                "SchoolsNumberPerCapita": 0.009951598817460054,
+                "BestRatingOfTheLocalUniversity": 1692,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Московский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1021158.7348120096,
+                "MaxDistanceToTheMetroStation": 8297.928177890335,
+                "SchoolsNumberPerCapita": 0.007233615251832463,
+                "BestRatingOfTheLocalUniversity": 4713,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [1, 3, 6]
+              }
+            },
+            {
+              "Title": "Мосренген",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1489056.0195637196,
+                "MaxDistanceToTheMetroStation": 4219.6938550191435,
+                "SchoolsNumberPerCapita": 0.0012644393808508476,
+                "BestRatingOfTheLocalUniversity": 3724,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 2, 4]
+              }
+            },
+            {
+              "Title": "Рязановское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1014036.1163271759,
+                "MaxDistanceToTheMetroStation": 3623.4818695222407,
+                "SchoolsNumberPerCapita": 0.003151462850231427,
+                "BestRatingOfTheLocalUniversity": 399,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 2, 3, 4, 5]
+              }
+            },
+            {
+              "Title": "Сосенское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1361012.8700365373,
+                "MaxDistanceToTheMetroStation": 6534.691106311368,
+                "SchoolsNumberPerCapita": 0.00940947638890216,
+                "BestRatingOfTheLocalUniversity": 501,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Филимонковское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 387950.4553545036,
+                "MaxDistanceToTheMetroStation": 6795.6118606010505,
+                "SchoolsNumberPerCapita": 0.0067071421885430554,
+                "BestRatingOfTheLocalUniversity": 4683,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Щербинка",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 922992.8854680586,
+                "MaxDistanceToTheMetroStation": 7632.708649911317,
+                "SchoolsNumberPerCapita": 0.005377346179623784,
+                "BestRatingOfTheLocalUniversity": 1349,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 6]
+              }
+            }
+          ],
+          "Attributes": null
+        },
+        {
+          "Title": "ТАО",
+          "Children": [
+            {
+              "Title": "Вороновское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 986712.7689843591,
+                "MaxDistanceToTheMetroStation": 1452.543260740369,
+                "SchoolsNumberPerCapita": 0.004955104831585244,
+                "BestRatingOfTheLocalUniversity": 1437,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 5, 6]
+              }
+            },
+            {
+              "Title": "Киевский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1717113.6470125585,
+                "MaxDistanceToTheMetroStation": 2875.5894344652024,
+                "SchoolsNumberPerCapita": 0.009747274949097669,
+                "BestRatingOfTheLocalUniversity": 420,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 3, 5, 6]
+              }
+            },
+            {
+              "Title": "Кленовское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1329331.8997739498,
+                "MaxDistanceToTheMetroStation": 6186.954722826814,
+                "SchoolsNumberPerCapita": 0.0033268061081538004,
+                "BestRatingOfTheLocalUniversity": 3732,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Краснопахорское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 186170.1123165759,
+                "MaxDistanceToTheMetroStation": 8722.663984504838,
+                "SchoolsNumberPerCapita": 0.007221494760001775,
+                "BestRatingOfTheLocalUniversity": 2530,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0]
+              }
+            },
+            {
+              "Title": "Михайлово-Ярцевское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 290124.72769716976,
+                "MaxDistanceToTheMetroStation": 2187.540636485229,
+                "SchoolsNumberPerCapita": 0.00895693312816179,
+                "BestRatingOfTheLocalUniversity": 3247,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Новофедоровское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 413558.6468007223,
+                "MaxDistanceToTheMetroStation": 6730.263735507738,
+                "SchoolsNumberPerCapita": 0.001455995452336965,
+                "BestRatingOfTheLocalUniversity": 4758,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [1, 2, 3, 5, 6]
+              }
+            },
+            {
+              "Title": "Первомайское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 381947.5370375195,
+                "MaxDistanceToTheMetroStation": 3067.8763827625085,
+                "SchoolsNumberPerCapita": 0.009168929476369606,
+                "BestRatingOfTheLocalUniversity": 3972,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 4, 5]
+              }
+            },
+            {
+              "Title": "Роговское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1093406.4347173118,
+                "MaxDistanceToTheMetroStation": 5234.718680025413,
+                "SchoolsNumberPerCapita": 0.002794838405584376,
+                "BestRatingOfTheLocalUniversity": 3866,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 6]
+              }
+            },
+            {
+              "Title": "Троицк",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1877918.4218300125,
+                "MaxDistanceToTheMetroStation": 6497.462112222548,
+                "SchoolsNumberPerCapita": 0.002898029863786898,
+                "BestRatingOfTheLocalUniversity": 175,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 5]
+              }
+            },
+            {
+              "Title": "Щаповское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 306887.3001387749,
+                "MaxDistanceToTheMetroStation": 7514.649401192856,
+                "SchoolsNumberPerCapita": 0.007148806103574488,
+                "BestRatingOfTheLocalUniversity": 1378,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": []
+              }
+            }
+          ],
+          "Attributes": null
+        }
+      ],
+      "Attributes": null
+    },
+    {
+      "Title": "Старая Москва",
+      "Children": [
+        {
+          "Title": "ЦАО",
+          "Children": [
+            {
+              "Title": "Центр (Китай-город)",
+              "Children": [
+                {
+                  "Title": "Китай-город",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 910383.9584022686,
+                    "MaxDistanceToTheMetroStation": 1045.9960960065928,
+                    "SchoolsNumberPerCapita": 0.002498825212707196,
+                    "BestRatingOfTheLocalUniversity": 614,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 2, 3, 4, 5]
+                  }
+                },
+                {
+                  "Title": "Зарядье",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1847749.4595608439,
+                    "MaxDistanceToTheMetroStation": 5620.732000852345,
+                    "SchoolsNumberPerCapita": 0.006446162429845969,
+                    "BestRatingOfTheLocalUniversity": 243,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Кремль (внутри)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1180129.6576019982,
+                    "MaxDistanceToTheMetroStation": 3908.346406141457,
+                    "SchoolsNumberPerCapita": 0.003517887143659353,
+                    "BestRatingOfTheLocalUniversity": 4300,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [3, 4, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Замоскворечье",
+              "Children": [
+                {
+                  "Title": "Замоскворечье (внутри Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 838417.3999346873,
+                    "MaxDistanceToTheMetroStation": 4919.668022505784,
+                    "SchoolsNumberPerCapita": 0.006275627882348201,
+                    "BestRatingOfTheLocalUniversity": 2216,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Замоскворечье (вне Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1695772.977124794,
+                    "MaxDistanceToTheMetroStation": 3920.6423731151235,
+                    "SchoolsNumberPerCapita": 0.001814789946570429,
+                    "BestRatingOfTheLocalUniversity": 557,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Якиманка",
+              "Children": [
+                {
+                  "Title": "Якиманка (внутри Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1688144.5689164775,
+                    "MaxDistanceToTheMetroStation": 2153.258908145716,
+                    "SchoolsNumberPerCapita": 0.0017569559084982408,
+                    "BestRatingOfTheLocalUniversity": 428,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [1, 5]
+                  }
+                },
+                {
+                  "Title": "Якиманка (вне Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1025325.2720205697,
+                    "MaxDistanceToTheMetroStation": 7113.226269890194,
+                    "SchoolsNumberPerCapita": 0.0027429810919533397,
+                    "BestRatingOfTheLocalUniversity": 4933,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 4, 6]
+                  }
+                },
+                {
+                  "Title": "Парк искусств ЦДХ",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 888231.9153511114,
+                    "MaxDistanceToTheMetroStation": 6379.793749367723,
+                    "SchoolsNumberPerCapita": 0.0075791571902014115,
+                    "BestRatingOfTheLocalUniversity": 2641,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Парк Горького",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1760073.519740288,
+                    "MaxDistanceToTheMetroStation": 7017.692820177271,
+                    "SchoolsNumberPerCapita": 0.0035255200567308443,
+                    "BestRatingOfTheLocalUniversity": 4700,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Нескучный сад",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 381957.1340372586,
+                    "MaxDistanceToTheMetroStation": 9584.424314361264,
+                    "SchoolsNumberPerCapita": 0.007998777772765038,
+                    "BestRatingOfTheLocalUniversity": 767,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Хамовники",
+              "Children": [
+                {
+                  "Title": "Хамовники (внутри Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1695200.1443948597,
+                    "MaxDistanceToTheMetroStation": 2596.045876665062,
+                    "SchoolsNumberPerCapita": 0.0031011829521046877,
+                    "BestRatingOfTheLocalUniversity": 1935,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [1, 2]
+                  }
+                },
+                {
+                  "Title": "Хамовники (вне Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 249506.59318338457,
+                    "MaxDistanceToTheMetroStation": 5325.654810911816,
+                    "SchoolsNumberPerCapita": 0.006404948490394722,
+                    "BestRatingOfTheLocalUniversity": 398,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 5]
+                  }
+                },
+                {
+                  "Title": "Новодевичий",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1598280.1006167568,
+                    "MaxDistanceToTheMetroStation": 3254.962133828067,
+                    "SchoolsNumberPerCapita": 0.004739263088320971,
+                    "BestRatingOfTheLocalUniversity": 3953,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 1, 3, 4, 6]
+                  }
+                },
+                {
+                  "Title": "Девичье поле",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1113334.634338196,
+                    "MaxDistanceToTheMetroStation": 3755.626969391306,
+                    "SchoolsNumberPerCapita": 0.009607488445289195,
+                    "BestRatingOfTheLocalUniversity": 2494,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": []
+                  }
+                },
+                {
+                  "Title": "Усадьба Трубецких",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1001856.2331059278,
+                    "MaxDistanceToTheMetroStation": 5913.4025997079,
+                    "SchoolsNumberPerCapita": 0.006165262839368202,
+                    "BestRatingOfTheLocalUniversity": 4475,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": []
+                  }
+                },
+                {
+                  "Title": "Лужники",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1933178.5660484706,
+                    "MaxDistanceToTheMetroStation": 8659.85648551018,
+                    "SchoolsNumberPerCapita": 0.00815552128160164,
+                    "BestRatingOfTheLocalUniversity": 1126,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [3]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Арбат",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1288975.5566273704,
+                "MaxDistanceToTheMetroStation": 4865.768500075568,
+                "SchoolsNumberPerCapita": 0.006033442668166683,
+                "BestRatingOfTheLocalUniversity": 954,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5]
+              }
+            },
+            {
+              "Title": "Пресненский",
+              "Children": [
+                {
+                  "Title": "Пресненский (внутри Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 282548.2655887251,
+                    "MaxDistanceToTheMetroStation": 1694.853348515394,
+                    "SchoolsNumberPerCapita": 0.0018001566691324845,
+                    "BestRatingOfTheLocalUniversity": 840,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Пресненский (вне Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1105848.630455252,
+                    "MaxDistanceToTheMetroStation": 7556.965380700754,
+                    "SchoolsNumberPerCapita": 0.00563744132483259,
+                    "BestRatingOfTheLocalUniversity": 4528,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 1, 3]
+                  }
+                },
+                {
+                  "Title": "Зоопарк",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 109447.56462678665,
+                    "MaxDistanceToTheMetroStation": 5917.276950048878,
+                    "SchoolsNumberPerCapita": 0.004416655000958896,
+                    "BestRatingOfTheLocalUniversity": 254,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 3, 4, 5]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Сити",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1865684.274260739,
+                "MaxDistanceToTheMetroStation": 4343.37475818739,
+                "SchoolsNumberPerCapita": 0.009367802794262678,
+                "BestRatingOfTheLocalUniversity": 1671,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 4, 5]
+              }
+            },
+            {
+              "Title": "Тверской",
+              "Children": [
+                {
+                  "Title": "Тверской (внутри Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 826549.2635902712,
+                    "MaxDistanceToTheMetroStation": 6439.131157211555,
+                    "SchoolsNumberPerCapita": 0.0010588929783827128,
+                    "BestRatingOfTheLocalUniversity": 1357,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 2, 4, 6]
+                  }
+                },
+                {
+                  "Title": "Тверской (вне Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 719675.7383084277,
+                    "MaxDistanceToTheMetroStation": 4429.25942616037,
+                    "SchoolsNumberPerCapita": 0.0031726490995719328,
+                    "BestRatingOfTheLocalUniversity": 1142,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": []
+                  }
+                },
+                {
+                  "Title": "Сад Эрмитаж",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 339957.0416006991,
+                    "MaxDistanceToTheMetroStation": 1872.5130794907516,
+                    "SchoolsNumberPerCapita": 0.00614062143961928,
+                    "BestRatingOfTheLocalUniversity": 2377,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [2, 3, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Мещанский",
+              "Children": [
+                {
+                  "Title": "Мещанский (внутри Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 792052.5053106493,
+                    "MaxDistanceToTheMetroStation": 4837.362016475463,
+                    "SchoolsNumberPerCapita": 0.006929069461733602,
+                    "BestRatingOfTheLocalUniversity": 1689,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [2, 3, 6]
+                  }
+                },
+                {
+                  "Title": "Мещанский (вне Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 215286.2084169342,
+                    "MaxDistanceToTheMetroStation": 7283.451814336448,
+                    "SchoolsNumberPerCapita": 0.003483870291842088,
+                    "BestRatingOfTheLocalUniversity": 221,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 2]
+                  }
+                },
+                {
+                  "Title": "Екатерининский парк",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 881701.5298650141,
+                    "MaxDistanceToTheMetroStation": 1041.3948963589012,
+                    "SchoolsNumberPerCapita": 0.007527146039310447,
+                    "BestRatingOfTheLocalUniversity": 4810,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Аптекарский огород",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 352807.667028535,
+                    "MaxDistanceToTheMetroStation": 7995.369489768226,
+                    "SchoolsNumberPerCapita": 0.005444652049077979,
+                    "BestRatingOfTheLocalUniversity": 1271,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Красносельский",
+              "Children": [
+                {
+                  "Title": "Красносельский (внутри Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 842244.3475584706,
+                    "MaxDistanceToTheMetroStation": 2493.024181338504,
+                    "SchoolsNumberPerCapita": 0.0034460715043573044,
+                    "BestRatingOfTheLocalUniversity": 4609,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Красносельский (вне Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 164670.8331837649,
+                    "MaxDistanceToTheMetroStation": 4589.061265154305,
+                    "SchoolsNumberPerCapita": 0.0036567511477771926,
+                    "BestRatingOfTheLocalUniversity": 2256,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": []
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Басманный",
+              "Children": [
+                {
+                  "Title": "Басманный (внутри Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1582513.5452405147,
+                    "MaxDistanceToTheMetroStation": 9601.775264647686,
+                    "SchoolsNumberPerCapita": 0.001632960927036107,
+                    "BestRatingOfTheLocalUniversity": 3982,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [1, 2, 3, 6]
+                  }
+                },
+                {
+                  "Title": "Басманный (вне Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1916398.63777738,
+                    "MaxDistanceToTheMetroStation": 5377.774792433612,
+                    "SchoolsNumberPerCapita": 0.006720066106747868,
+                    "BestRatingOfTheLocalUniversity": 3432,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [1, 3, 4, 5]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Таганский",
+              "Children": [
+                {
+                  "Title": "Таганский (внутри Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 244453.42097638798,
+                    "MaxDistanceToTheMetroStation": 8438.353403675534,
+                    "SchoolsNumberPerCapita": 0.0024597662144618883,
+                    "BestRatingOfTheLocalUniversity": 4386,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Таганский (вне Садового)",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 984854.6611447141,
+                    "MaxDistanceToTheMetroStation": 1483.3195472524126,
+                    "SchoolsNumberPerCapita": 0.0034072926502708776,
+                    "BestRatingOfTheLocalUniversity": 4189,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [1]
+                  }
+                }
+              ],
+              "Attributes": null
+            }
+          ],
+          "Attributes": null
+        },
+        {
+          "Title": "ЮАО",
+          "Children": [
+            {
+              "Title": "Даниловский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 782633.9431398707,
+                "MaxDistanceToTheMetroStation": 3844.2962397096194,
+                "SchoolsNumberPerCapita": 0.008650637079333253,
+                "BestRatingOfTheLocalUniversity": 4656,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 5, 6]
+              }
+            },
+            {
+              "Title": "Донской",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1597541.1809224363,
+                "MaxDistanceToTheMetroStation": 8402.364667226731,
+                "SchoolsNumberPerCapita": 0.008237200094963051,
+                "BestRatingOfTheLocalUniversity": 4514,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "ЗИЛ",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1738369.102114052,
+                "MaxDistanceToTheMetroStation": 3618.952360292409,
+                "SchoolsNumberPerCapita": 0.004022515772852356,
+                "BestRatingOfTheLocalUniversity": 811,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Нагатинский Затон",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1374640.5786344039,
+                "MaxDistanceToTheMetroStation": 7639.083397406658,
+                "SchoolsNumberPerCapita": 0.00484891311724154,
+                "BestRatingOfTheLocalUniversity": 296,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [3]
+              }
+            },
+            {
+              "Title": "Нагорный",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 60772.63520135201,
+                "MaxDistanceToTheMetroStation": 5454.3933712199305,
+                "SchoolsNumberPerCapita": 0.0014045408765806541,
+                "BestRatingOfTheLocalUniversity": 851,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Нагатино-Садовники",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1644216.8805209068,
+                "MaxDistanceToTheMetroStation": 5549.913816410077,
+                "SchoolsNumberPerCapita": 0.009878191090132198,
+                "BestRatingOfTheLocalUniversity": 4862,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 5]
+              }
+            },
+            {
+              "Title": "Музей-Заповедник \u0027Коломенское\u0027",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1735985.6226555936,
+                "MaxDistanceToTheMetroStation": 4657.713578388893,
+                "SchoolsNumberPerCapita": 0.009048666839044851,
+                "BestRatingOfTheLocalUniversity": 1036,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Москворечье-Сабурово",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1127245.4320673111,
+                "MaxDistanceToTheMetroStation": 6661.48152791964,
+                "SchoolsNumberPerCapita": 0.003678555478657855,
+                "BestRatingOfTheLocalUniversity": 3382,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Братеево",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1565088.8929912304,
+                "MaxDistanceToTheMetroStation": 8780.634551206898,
+                "SchoolsNumberPerCapita": 0.007191128340173107,
+                "BestRatingOfTheLocalUniversity": 1758,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Чертаново",
+              "Children": [
+                {
+                  "Title": "Северное Чертаново",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 701435.4159224012,
+                    "MaxDistanceToTheMetroStation": 9808.458508834456,
+                    "SchoolsNumberPerCapita": 0.0013508703896547064,
+                    "BestRatingOfTheLocalUniversity": 3615,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [3, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Центральное Чертаново",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 426738.02993574087,
+                    "MaxDistanceToTheMetroStation": 4374.620766553386,
+                    "SchoolsNumberPerCapita": 0.008068640319662469,
+                    "BestRatingOfTheLocalUniversity": 3815,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": []
+                  }
+                },
+                {
+                  "Title": "Южное Чертаново",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1785606.2348678738,
+                    "MaxDistanceToTheMetroStation": 3293.95354459712,
+                    "SchoolsNumberPerCapita": 0.002596560743449517,
+                    "BestRatingOfTheLocalUniversity": 432,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [4, 5]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Царицыно",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1921894.4438741982,
+                "MaxDistanceToTheMetroStation": 7221.461601192812,
+                "SchoolsNumberPerCapita": 0.0039608631031405475,
+                "BestRatingOfTheLocalUniversity": 1141,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 3]
+              }
+            },
+            {
+              "Title": "Парк \u0027Царицыно\u0027",
+              "Children": [
+                {
+                  "Title": "Музей-Заповедник \u0027Царицыно\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 295630.7258715996,
+                    "MaxDistanceToTheMetroStation": 5141.356306682042,
+                    "SchoolsNumberPerCapita": 0.007292118496863228,
+                    "BestRatingOfTheLocalUniversity": 1128,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Бирюлевский дендропарк",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1219144.672406439,
+                    "MaxDistanceToTheMetroStation": 5841.985025369556,
+                    "SchoolsNumberPerCapita": 0.006518374608605344,
+                    "BestRatingOfTheLocalUniversity": 2689,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Бирюлево",
+              "Children": [
+                {
+                  "Title": "Бирюлево Восточное",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1310740.0771187341,
+                    "MaxDistanceToTheMetroStation": 7173.634641884656,
+                    "SchoolsNumberPerCapita": 0.002058153882649799,
+                    "BestRatingOfTheLocalUniversity": 2928,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [1]
+                  }
+                },
+                {
+                  "Title": "Бирюлево Западное",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 934582.593820329,
+                    "MaxDistanceToTheMetroStation": 5910.8744794087825,
+                    "SchoolsNumberPerCapita": 0.006959378587063114,
+                    "BestRatingOfTheLocalUniversity": 2077,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 5, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Орехово-Борисово",
+              "Children": [
+                {
+                  "Title": "Орехово-Борисово Северное",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 55905.95875676067,
+                    "MaxDistanceToTheMetroStation": 7695.3761836958,
+                    "SchoolsNumberPerCapita": 0.006241321201082935,
+                    "BestRatingOfTheLocalUniversity": 3435,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Орехово-Борисово Южное",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 780360.6543971043,
+                    "MaxDistanceToTheMetroStation": 1651.518435520827,
+                    "SchoolsNumberPerCapita": 0.007851000721031336,
+                    "BestRatingOfTheLocalUniversity": 4591,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [3, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Зябликово",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1633398.4578928903,
+                "MaxDistanceToTheMetroStation": 5338.783591212138,
+                "SchoolsNumberPerCapita": 0.007967721664797386,
+                "BestRatingOfTheLocalUniversity": 2949,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [1, 3, 5, 6]
+              }
+            }
+          ],
+          "Attributes": null
+        },
+        {
+          "Title": "ЮЗАО",
+          "Children": [
+            {
+              "Title": "Гагаринский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 303488.87429735105,
+                "MaxDistanceToTheMetroStation": 2379.1602679431253,
+                "SchoolsNumberPerCapita": 0.0055327411575861,
+                "BestRatingOfTheLocalUniversity": 1034,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 5]
+              }
+            },
+            {
+              "Title": "Академический",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1862057.3941907182,
+                "MaxDistanceToTheMetroStation": 1131.5399306507502,
+                "SchoolsNumberPerCapita": 0.0019211400830751006,
+                "BestRatingOfTheLocalUniversity": 2103,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Котловка",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1774457.313108471,
+                "MaxDistanceToTheMetroStation": 2438.5057810873286,
+                "SchoolsNumberPerCapita": 0.0059126729634183806,
+                "BestRatingOfTheLocalUniversity": 4009,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 3]
+              }
+            },
+            {
+              "Title": "Ломоносовский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1940689.2063378773,
+                "MaxDistanceToTheMetroStation": 1007.3565868695065,
+                "SchoolsNumberPerCapita": 0.001430761657390167,
+                "BestRatingOfTheLocalUniversity": 441,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Черемушки",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1158002.940042877,
+                "MaxDistanceToTheMetroStation": 8973.385747975382,
+                "SchoolsNumberPerCapita": 0.004567322920806392,
+                "BestRatingOfTheLocalUniversity": 1274,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [4]
+              }
+            },
+            {
+              "Title": "Зюзино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1607469.398997477,
+                "MaxDistanceToTheMetroStation": 4899.423081846639,
+                "SchoolsNumberPerCapita": 0.009944193552687854,
+                "BestRatingOfTheLocalUniversity": 3909,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [2, 5, 6]
+              }
+            },
+            {
+              "Title": "Обручевский",
+              "Children": [
+                {
+                  "Title": "Район \u0027Обручевский\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 612048.1060687677,
+                    "MaxDistanceToTheMetroStation": 6983.059776939014,
+                    "SchoolsNumberPerCapita": 0.0015486953158623984,
+                    "BestRatingOfTheLocalUniversity": 954,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [1, 4, 5]
+                  }
+                },
+                {
+                  "Title": "Воронцовский парк",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1950996.4296924865,
+                    "MaxDistanceToTheMetroStation": 2256.73249282722,
+                    "SchoolsNumberPerCapita": 0.009149798163748252,
+                    "BestRatingOfTheLocalUniversity": 4417,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Коньково",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1244602.6231183684,
+                "MaxDistanceToTheMetroStation": 1683.3251387268888,
+                "SchoolsNumberPerCapita": 0.006903146242677769,
+                "BestRatingOfTheLocalUniversity": 1626,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Теплый Стан",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 524223.5482876299,
+                "MaxDistanceToTheMetroStation": 3492.0257704760998,
+                "SchoolsNumberPerCapita": 0.009150627192645627,
+                "BestRatingOfTheLocalUniversity": 4142,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 5]
+              }
+            },
+            {
+              "Title": "Ясенево",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 59178.31844611946,
+                "MaxDistanceToTheMetroStation": 9134.417740225053,
+                "SchoolsNumberPerCapita": 0.007997126768341814,
+                "BestRatingOfTheLocalUniversity": 675,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Битцевский Лесопарк",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1714158.1863696494,
+                "MaxDistanceToTheMetroStation": 8847.521296165662,
+                "SchoolsNumberPerCapita": 0.006685575300215546,
+                "BestRatingOfTheLocalUniversity": 579,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Бутово",
+              "Children": [
+                {
+                  "Title": "Северное Бутово",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 293976.2104181462,
+                    "MaxDistanceToTheMetroStation": 9850.692236726494,
+                    "SchoolsNumberPerCapita": 0.005358165409582745,
+                    "BestRatingOfTheLocalUniversity": 3609,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Южное Бутово",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1442745.8200802773,
+                    "MaxDistanceToTheMetroStation": 7551.508128899852,
+                    "SchoolsNumberPerCapita": 0.00876470672235112,
+                    "BestRatingOfTheLocalUniversity": 4999,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": []
+                  }
+                }
+              ],
+              "Attributes": null
+            }
+          ],
+          "Attributes": null
+        },
+        {
+          "Title": "ЗАО",
+          "Children": [
+            {
+              "Title": "Дорогомилово",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 426382.993881769,
+                "MaxDistanceToTheMetroStation": 1811.869528056993,
+                "SchoolsNumberPerCapita": 0.0012714593295340703,
+                "BestRatingOfTheLocalUniversity": 4173,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [1, 2, 3, 4, 6]
+              }
+            },
+            {
+              "Title": "Парк Победы (Поклонная гора)",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1481068.0099954214,
+                "MaxDistanceToTheMetroStation": 3372.783240104459,
+                "SchoolsNumberPerCapita": 0.008133860360893357,
+                "BestRatingOfTheLocalUniversity": 1028,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Раменки",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1103909.3246049758,
+                "MaxDistanceToTheMetroStation": 1760.135721769247,
+                "SchoolsNumberPerCapita": 0.00943699317958066,
+                "BestRatingOfTheLocalUniversity": 1797,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 5, 6]
+              }
+            },
+            {
+              "Title": "Воробьевы горы",
+              "Children": [
+                {
+                  "Title": "Заказник \u0027Воробьевы горы\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1669418.5005265374,
+                    "MaxDistanceToTheMetroStation": 4962.256141455032,
+                    "SchoolsNumberPerCapita": 0.0010183176058429842,
+                    "BestRatingOfTheLocalUniversity": 4668,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 2]
+                  }
+                },
+                {
+                  "Title": "Дворец детского творчества",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 681608.4580317179,
+                    "MaxDistanceToTheMetroStation": 6059.882166357656,
+                    "SchoolsNumberPerCapita": 0.002272303038869194,
+                    "BestRatingOfTheLocalUniversity": 1504,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3]
+                  }
+                },
+                {
+                  "Title": "МГУ",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 407024.0318807885,
+                    "MaxDistanceToTheMetroStation": 9824.030760593727,
+                    "SchoolsNumberPerCapita": 0.005178724888795393,
+                    "BestRatingOfTheLocalUniversity": 443,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Фили",
+              "Children": [
+                {
+                  "Title": "Парк Фили",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 260842.3255853552,
+                    "MaxDistanceToTheMetroStation": 2374.8763484763335,
+                    "SchoolsNumberPerCapita": 0.0071531615877305915,
+                    "BestRatingOfTheLocalUniversity": 4354,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [2, 3, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Филевский парк",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 244329.5635489419,
+                    "MaxDistanceToTheMetroStation": 3398.9484363230636,
+                    "SchoolsNumberPerCapita": 0.00681720197518226,
+                    "BestRatingOfTheLocalUniversity": 3359,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 3, 4, 5]
+                  }
+                },
+                {
+                  "Title": "Фили-Давыдково",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1366363.3968151936,
+                    "MaxDistanceToTheMetroStation": 3317.42580715447,
+                    "SchoolsNumberPerCapita": 0.003973587444039801,
+                    "BestRatingOfTheLocalUniversity": 4904,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 3, 4, 5, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Очаково-Матвеевское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1845793.292562381,
+                "MaxDistanceToTheMetroStation": 1554.4546388808892,
+                "SchoolsNumberPerCapita": 0.0021724152784666118,
+                "BestRatingOfTheLocalUniversity": 4087,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [2, 5]
+              }
+            },
+            {
+              "Title": "Проспект Вернадского",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 758326.5663675622,
+                "MaxDistanceToTheMetroStation": 5617.246445090159,
+                "SchoolsNumberPerCapita": 0.009112193534668626,
+                "BestRatingOfTheLocalUniversity": 1726,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [1, 2, 6]
+              }
+            },
+            {
+              "Title": "Тропарево-Никулино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 866059.2654468768,
+                "MaxDistanceToTheMetroStation": 5698.884572693559,
+                "SchoolsNumberPerCapita": 0.002598891402873626,
+                "BestRatingOfTheLocalUniversity": 559,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Крылатское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 372380.98575378815,
+                "MaxDistanceToTheMetroStation": 5516.831835972533,
+                "SchoolsNumberPerCapita": 0.0070327207092348125,
+                "BestRatingOfTheLocalUniversity": 4868,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 6]
+              }
+            },
+            {
+              "Title": "Можайский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1966723.9025080223,
+                "MaxDistanceToTheMetroStation": 6670.014171241789,
+                "SchoolsNumberPerCapita": 0.0061136097885266,
+                "BestRatingOfTheLocalUniversity": 1510,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Кунцево",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 968452.8674410902,
+                "MaxDistanceToTheMetroStation": 1027.2137303963368,
+                "SchoolsNumberPerCapita": 0.004108915512966419,
+                "BestRatingOfTheLocalUniversity": 943,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 2]
+              }
+            },
+            {
+              "Title": "Солнцево",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1314369.905197234,
+                "MaxDistanceToTheMetroStation": 3147.1145242206358,
+                "SchoolsNumberPerCapita": 0.0019008237830832712,
+                "BestRatingOfTheLocalUniversity": 313,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [3, 5, 6]
+              }
+            },
+            {
+              "Title": "Новопеределкино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1242817.5875557668,
+                "MaxDistanceToTheMetroStation": 1849.4435925266907,
+                "SchoolsNumberPerCapita": 0.0043245569874181215,
+                "BestRatingOfTheLocalUniversity": 1053,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [3, 4, 6]
+              }
+            },
+            {
+              "Title": "Внуково",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 938412.2986991017,
+                "MaxDistanceToTheMetroStation": 1141.2365646759217,
+                "SchoolsNumberPerCapita": 0.004253758500448316,
+                "BestRatingOfTheLocalUniversity": 4315,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 2, 3, 4, 5, 6]
+              }
+            }
+          ],
+          "Attributes": null
+        },
+        {
+          "Title": "СЗАО",
+          "Children": [
+            {
+              "Title": "Хорошево-Мневники",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1457992.1094598214,
+                "MaxDistanceToTheMetroStation": 5494.652213759093,
+                "SchoolsNumberPerCapita": 0.0013553402658343968,
+                "BestRatingOfTheLocalUniversity": 3088,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Щукино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 617368.8889934536,
+                "MaxDistanceToTheMetroStation": 6510.785889118344,
+                "SchoolsNumberPerCapita": 0.0045940003770375635,
+                "BestRatingOfTheLocalUniversity": 4012,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Покровское-Стрешнево",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 518984.06285745284,
+                "MaxDistanceToTheMetroStation": 9876.121535373908,
+                "SchoolsNumberPerCapita": 0.002680063882228017,
+                "BestRatingOfTheLocalUniversity": 3469,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Строгино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 783462.9295130554,
+                "MaxDistanceToTheMetroStation": 6702.656742978216,
+                "SchoolsNumberPerCapita": 0.0023572257032418746,
+                "BestRatingOfTheLocalUniversity": 3570,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Тушино",
+              "Children": [
+                {
+                  "Title": "Южное Тушино",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 367669.615506972,
+                    "MaxDistanceToTheMetroStation": 2289.1464439635847,
+                    "SchoolsNumberPerCapita": 0.002748263589454938,
+                    "BestRatingOfTheLocalUniversity": 1105,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [1, 2, 3, 4, 5]
+                  }
+                },
+                {
+                  "Title": "Северное Тушино",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 205734.28126319047,
+                    "MaxDistanceToTheMetroStation": 6364.082064649128,
+                    "SchoolsNumberPerCapita": 0.0029291416066368776,
+                    "BestRatingOfTheLocalUniversity": 1550,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 2, 3]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Митино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 499311.5358889623,
+                "MaxDistanceToTheMetroStation": 2092.839124190081,
+                "SchoolsNumberPerCapita": 0.007957012107110122,
+                "BestRatingOfTheLocalUniversity": 2012,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [1]
+              }
+            },
+            {
+              "Title": "Куркино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1915305.5271856978,
+                "MaxDistanceToTheMetroStation": 7381.101656882605,
+                "SchoolsNumberPerCapita": 0.0042534708754408505,
+                "BestRatingOfTheLocalUniversity": 3192,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [2, 4, 5, 6]
+              }
+            }
+          ],
+          "Attributes": null
+        },
+        {
+          "Title": "САО",
+          "Children": [
+            {
+              "Title": "Беговой",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 219263.8823293447,
+                "MaxDistanceToTheMetroStation": 7302.216556995277,
+                "SchoolsNumberPerCapita": 0.007315577482485947,
+                "BestRatingOfTheLocalUniversity": 1269,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Савеловский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 606448.4807878959,
+                "MaxDistanceToTheMetroStation": 6722.841375844013,
+                "SchoolsNumberPerCapita": 0.00398083731670903,
+                "BestRatingOfTheLocalUniversity": 1884,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [3, 6]
+              }
+            },
+            {
+              "Title": "Хорошевский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1821435.9119075518,
+                "MaxDistanceToTheMetroStation": 1655.4244652648572,
+                "SchoolsNumberPerCapita": 0.004890614422452923,
+                "BestRatingOfTheLocalUniversity": 4932,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Аэропорт",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 459800.12848032644,
+                "MaxDistanceToTheMetroStation": 7508.9473014273435,
+                "SchoolsNumberPerCapita": 0.008976577421639386,
+                "BestRatingOfTheLocalUniversity": 3058,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Сокол",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 112096.03353966774,
+                "MaxDistanceToTheMetroStation": 9931.55887719782,
+                "SchoolsNumberPerCapita": 0.002529950806652173,
+                "BestRatingOfTheLocalUniversity": 3253,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [3]
+              }
+            },
+            {
+              "Title": "Тимирязевский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 168884.15428292198,
+                "MaxDistanceToTheMetroStation": 7784.658695005187,
+                "SchoolsNumberPerCapita": 0.0019463127446110887,
+                "BestRatingOfTheLocalUniversity": 1453,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [4, 5, 6]
+              }
+            },
+            {
+              "Title": "Парк МСХА Тимирязева",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 860223.6872260569,
+                "MaxDistanceToTheMetroStation": 2793.4709944731885,
+                "SchoolsNumberPerCapita": 0.006092091640966056,
+                "BestRatingOfTheLocalUniversity": 3772,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [2, 4]
+              }
+            },
+            {
+              "Title": "Коптево",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1335076.4447707108,
+                "MaxDistanceToTheMetroStation": 6566.347991380071,
+                "SchoolsNumberPerCapita": 0.007781860333765793,
+                "BestRatingOfTheLocalUniversity": 2044,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Войковский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1777061.2488393958,
+                "MaxDistanceToTheMetroStation": 3870.9594718511025,
+                "SchoolsNumberPerCapita": 0.008473699868411618,
+                "BestRatingOfTheLocalUniversity": 341,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 3, 4, 6]
+              }
+            },
+            {
+              "Title": "Головинский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 299573.4115781139,
+                "MaxDistanceToTheMetroStation": 5487.833061948341,
+                "SchoolsNumberPerCapita": 0.009974107949051125,
+                "BestRatingOfTheLocalUniversity": 4741,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [1, 2, 6]
+              }
+            },
+            {
+              "Title": "Дегунино",
+              "Children": [
+                {
+                  "Title": "Бескудниковский",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 689675.7270440811,
+                    "MaxDistanceToTheMetroStation": 1049.9707986833391,
+                    "SchoolsNumberPerCapita": 0.006564719957562499,
+                    "BestRatingOfTheLocalUniversity": 3986,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 6]
+                  }
+                },
+                {
+                  "Title": "Западное Дегунино",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 883379.8456952813,
+                    "MaxDistanceToTheMetroStation": 4513.02393782559,
+                    "SchoolsNumberPerCapita": 0.009000453302171293,
+                    "BestRatingOfTheLocalUniversity": 4690,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": []
+                  }
+                },
+                {
+                  "Title": "Восточное Дегунино",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 201075.6155667247,
+                    "MaxDistanceToTheMetroStation": 9174.959333694987,
+                    "SchoolsNumberPerCapita": 0.006554345227570434,
+                    "BestRatingOfTheLocalUniversity": 1220,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [1, 2]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Левобережный",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1430144.8106533592,
+                "MaxDistanceToTheMetroStation": 7920.635062232909,
+                "SchoolsNumberPerCapita": 0.0018382137701093283,
+                "BestRatingOfTheLocalUniversity": 3602,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 3]
+              }
+            },
+            {
+              "Title": "Ховрино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 105699.2384724781,
+                "MaxDistanceToTheMetroStation": 9928.443030420896,
+                "SchoolsNumberPerCapita": 0.002493790609992012,
+                "BestRatingOfTheLocalUniversity": 798,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Дмитровский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1487525.8927268563,
+                "MaxDistanceToTheMetroStation": 2460.7670011281816,
+                "SchoolsNumberPerCapita": 0.0024701133763744094,
+                "BestRatingOfTheLocalUniversity": 2254,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [3]
+              }
+            },
+            {
+              "Title": "Молжаниновский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1522451.079693833,
+                "MaxDistanceToTheMetroStation": 9194.772581194888,
+                "SchoolsNumberPerCapita": 0.009136721623659472,
+                "BestRatingOfTheLocalUniversity": 2120,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 3]
+              }
+            }
+          ],
+          "Attributes": null
+        },
+        {
+          "Title": "СВАО",
+          "Children": [
+            {
+              "Title": "Марьина роща",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1124789.8231469048,
+                "MaxDistanceToTheMetroStation": 2584.6484622846583,
+                "SchoolsNumberPerCapita": 0.004598230845107805,
+                "BestRatingOfTheLocalUniversity": 3769,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [1, 2]
+              }
+            },
+            {
+              "Title": "Бутырский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1833419.394788062,
+                "MaxDistanceToTheMetroStation": 2084.049324078508,
+                "SchoolsNumberPerCapita": 0.009870275170481894,
+                "BestRatingOfTheLocalUniversity": 3544,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Алексеевский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 77065.88104230625,
+                "MaxDistanceToTheMetroStation": 6935.001200500411,
+                "SchoolsNumberPerCapita": 0.0028879291424005896,
+                "BestRatingOfTheLocalUniversity": 3165,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [5]
+              }
+            },
+            {
+              "Title": "Останкинский",
+              "Children": [
+                {
+                  "Title": "Район \u0027Останкинский\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 557306.0410270961,
+                    "MaxDistanceToTheMetroStation": 4845.103194399319,
+                    "SchoolsNumberPerCapita": 0.009893836406941449,
+                    "BestRatingOfTheLocalUniversity": 917,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [0, 3, 5, 6]
+                  }
+                },
+                {
+                  "Title": "ВДНХ",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 749321.3131601556,
+                    "MaxDistanceToTheMetroStation": 7164.415667375743,
+                    "SchoolsNumberPerCapita": 0.004800900016818615,
+                    "BestRatingOfTheLocalUniversity": 1083,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": []
+                  }
+                },
+                {
+                  "Title": "Парк \u0027Останкино\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1699008.7641677859,
+                    "MaxDistanceToTheMetroStation": 2103.3626371544615,
+                    "SchoolsNumberPerCapita": 0.006485193394816105,
+                    "BestRatingOfTheLocalUniversity": 2116,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Ботанический сад",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1858590.958797648,
+                    "MaxDistanceToTheMetroStation": 1789.2513562875106,
+                    "SchoolsNumberPerCapita": 0.009911613560240538,
+                    "BestRatingOfTheLocalUniversity": 2632,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [1, 2, 3, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Марфино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1739083.770559674,
+                "MaxDistanceToTheMetroStation": 2494.6653160707397,
+                "SchoolsNumberPerCapita": 0.007128175230756485,
+                "BestRatingOfTheLocalUniversity": 4223,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1]
+              }
+            },
+            {
+              "Title": "Ростокино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 699746.2691272359,
+                "MaxDistanceToTheMetroStation": 4944.7862519625505,
+                "SchoolsNumberPerCapita": 0.0036779135380303088,
+                "BestRatingOfTheLocalUniversity": 2671,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Отрадное",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1422428.7425458566,
+                "MaxDistanceToTheMetroStation": 9973.274025122297,
+                "SchoolsNumberPerCapita": 0.009306953458724058,
+                "BestRatingOfTheLocalUniversity": 1346,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Свиблово",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1342697.1087524188,
+                "MaxDistanceToTheMetroStation": 7431.177489194636,
+                "SchoolsNumberPerCapita": 0.0029795047161073913,
+                "BestRatingOfTheLocalUniversity": 3433,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Ярославский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1460143.6536666674,
+                "MaxDistanceToTheMetroStation": 2800.5985332655714,
+                "SchoolsNumberPerCapita": 0.009721038007978834,
+                "BestRatingOfTheLocalUniversity": 1920,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [5]
+              }
+            },
+            {
+              "Title": "Бабушкинский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1668342.90366077,
+                "MaxDistanceToTheMetroStation": 7091.590218288633,
+                "SchoolsNumberPerCapita": 0.009494961814254039,
+                "BestRatingOfTheLocalUniversity": 4567,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [1, 2, 3, 5]
+              }
+            },
+            {
+              "Title": "Алтуфьевский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 477053.95048347017,
+                "MaxDistanceToTheMetroStation": 3759.3980630670662,
+                "SchoolsNumberPerCapita": 0.009327752623394019,
+                "BestRatingOfTheLocalUniversity": 4931,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Медведково",
+              "Children": [
+                {
+                  "Title": "Южное Медведково",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1411045.0497879856,
+                    "MaxDistanceToTheMetroStation": 1727.0669302563495,
+                    "SchoolsNumberPerCapita": 0.0018043385054005024,
+                    "BestRatingOfTheLocalUniversity": 2092,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": []
+                  }
+                },
+                {
+                  "Title": "Северное Медведково",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1546589.099311544,
+                    "MaxDistanceToTheMetroStation": 4975.9286474324435,
+                    "SchoolsNumberPerCapita": 0.008434980995224314,
+                    "BestRatingOfTheLocalUniversity": 111,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [4, 5]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Бибирево",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1338312.6991141182,
+                "MaxDistanceToTheMetroStation": 5016.698593281535,
+                "SchoolsNumberPerCapita": 0.005502866097494433,
+                "BestRatingOfTheLocalUniversity": 3334,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [1, 2]
+              }
+            },
+            {
+              "Title": "Лианозово",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 515057.0463179876,
+                "MaxDistanceToTheMetroStation": 1890.4782975513854,
+                "SchoolsNumberPerCapita": 0.005626124393486476,
+                "BestRatingOfTheLocalUniversity": 280,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [3]
+              }
+            },
+            {
+              "Title": "Лосиноостровский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 774317.9032832002,
+                "MaxDistanceToTheMetroStation": 1543.2300761077693,
+                "SchoolsNumberPerCapita": 0.008480936958678503,
+                "BestRatingOfTheLocalUniversity": 2486,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [6]
+              }
+            },
+            {
+              "Title": "Северный",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 112812.44614758177,
+                "MaxDistanceToTheMetroStation": 6065.0862930645635,
+                "SchoolsNumberPerCapita": 0.0010919245961550272,
+                "BestRatingOfTheLocalUniversity": 3639,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            }
+          ],
+          "Attributes": null
+        },
+        {
+          "Title": "ВАО",
+          "Children": [
+            {
+              "Title": "Сокольники",
+              "Children": [
+                {
+                  "Title": "Район \u0027Сокольники\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1183658.788829883,
+                    "MaxDistanceToTheMetroStation": 1893.064005716268,
+                    "SchoolsNumberPerCapita": 0.005669964223946429,
+                    "BestRatingOfTheLocalUniversity": 4995,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [2, 5]
+                  }
+                },
+                {
+                  "Title": "Парк \u0027Сокольники\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 583002.977568192,
+                    "MaxDistanceToTheMetroStation": 4242.402492669598,
+                    "SchoolsNumberPerCapita": 0.005552571914881735,
+                    "BestRatingOfTheLocalUniversity": 2980,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 2, 4]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Соколиная Гора",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1738482.069251352,
+                "MaxDistanceToTheMetroStation": 7480.235812943539,
+                "SchoolsNumberPerCapita": 0.0028618912211907524,
+                "BestRatingOfTheLocalUniversity": 263,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [5]
+              }
+            },
+            {
+              "Title": "Перово",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 613033.4308990433,
+                "MaxDistanceToTheMetroStation": 8250.698269927267,
+                "SchoolsNumberPerCapita": 0.002526746786444796,
+                "BestRatingOfTheLocalUniversity": 738,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [1, 4]
+              }
+            },
+            {
+              "Title": "Преображенское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1028570.139477295,
+                "MaxDistanceToTheMetroStation": 2210.3714361835137,
+                "SchoolsNumberPerCapita": 0.0012235978325938796,
+                "BestRatingOfTheLocalUniversity": 4245,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Богородское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 495309.7284656529,
+                "MaxDistanceToTheMetroStation": 3093.911646909039,
+                "SchoolsNumberPerCapita": 0.00818972841100289,
+                "BestRatingOfTheLocalUniversity": 3981,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 5, 6]
+              }
+            },
+            {
+              "Title": "Измайлово",
+              "Children": [
+                {
+                  "Title": "Район \u0027Измайлово\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 476777.78141423024,
+                    "MaxDistanceToTheMetroStation": 1225.7429460183453,
+                    "SchoolsNumberPerCapita": 0.005624892333347766,
+                    "BestRatingOfTheLocalUniversity": 4659,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Измайловский кремль",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 166887.1295297924,
+                    "MaxDistanceToTheMetroStation": 3781.1411641450322,
+                    "SchoolsNumberPerCapita": 0.006158438063300419,
+                    "BestRatingOfTheLocalUniversity": 516,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 3, 6]
+                  }
+                },
+                {
+                  "Title": "Измайловский остров",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 507152.2107474283,
+                    "MaxDistanceToTheMetroStation": 9639.273967425932,
+                    "SchoolsNumberPerCapita": 0.001039207420795787,
+                    "BestRatingOfTheLocalUniversity": 2691,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+                  }
+                },
+                {
+                  "Title": "Парк \u0027Измайлово\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1700841.4059601917,
+                    "MaxDistanceToTheMetroStation": 6159.990333095188,
+                    "SchoolsNumberPerCapita": 0.009432835139535758,
+                    "BestRatingOfTheLocalUniversity": 1724,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [3, 6]
+                  }
+                },
+                {
+                  "Title": "Измайловский лесопарк",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1407511.4919839015,
+                    "MaxDistanceToTheMetroStation": 7763.670895604263,
+                    "SchoolsNumberPerCapita": 0.006319847941081901,
+                    "BestRatingOfTheLocalUniversity": 1525,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 6]
+                  }
+                },
+                {
+                  "Title": "Восточное Измайлово",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 306325.328492711,
+                    "MaxDistanceToTheMetroStation": 9948.824964905541,
+                    "SchoolsNumberPerCapita": 0.008550454443576959,
+                    "BestRatingOfTheLocalUniversity": 3960,
+                    "AreThereAnyHeritageSites": true,
+                    "SpecificArchitecturalStyles": [5]
+                  }
+                },
+                {
+                  "Title": "Северное Измайлово",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 667045.9834053395,
+                    "MaxDistanceToTheMetroStation": 4294.983378283207,
+                    "SchoolsNumberPerCapita": 0.002880836836938205,
+                    "BestRatingOfTheLocalUniversity": 1505,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [4, 5]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Новогиреево",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1099640.7187635268,
+                "MaxDistanceToTheMetroStation": 2875.603071821669,
+                "SchoolsNumberPerCapita": 0.004719359479713887,
+                "BestRatingOfTheLocalUniversity": 1266,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [1, 6]
+              }
+            },
+            {
+              "Title": "Ивановское",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 897405.8996035744,
+                "MaxDistanceToTheMetroStation": 9484.010174630213,
+                "SchoolsNumberPerCapita": 0.00543306264301439,
+                "BestRatingOfTheLocalUniversity": 3228,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0]
+              }
+            },
+            {
+              "Title": "Парк Кусково",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 571498.6793191631,
+                "MaxDistanceToTheMetroStation": 9323.073346318246,
+                "SchoolsNumberPerCapita": 0.002288707429211916,
+                "BestRatingOfTheLocalUniversity": 2618,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [1, 3]
+              }
+            },
+            {
+              "Title": "Метрогородок",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 774036.4497034049,
+                "MaxDistanceToTheMetroStation": 6382.8241845512875,
+                "SchoolsNumberPerCapita": 0.006805421176741562,
+                "BestRatingOfTheLocalUniversity": 3590,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Гольяново",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1740428.620083457,
+                "MaxDistanceToTheMetroStation": 6052.165673138651,
+                "SchoolsNumberPerCapita": 0.00460688223066129,
+                "BestRatingOfTheLocalUniversity": 4273,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Вешняки",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1847862.3737617687,
+                "MaxDistanceToTheMetroStation": 4832.382260743707,
+                "SchoolsNumberPerCapita": 0.0031797275623212237,
+                "BestRatingOfTheLocalUniversity": 4904,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [1, 2, 3, 4, 6]
+              }
+            },
+            {
+              "Title": "Лосиный остров",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 42884.33514669739,
+                "MaxDistanceToTheMetroStation": 1256.0163057670075,
+                "SchoolsNumberPerCapita": 0.006007922555789316,
+                "BestRatingOfTheLocalUniversity": 4570,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [1, 4]
+              }
+            },
+            {
+              "Title": "Новокосино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 215335.11615141065,
+                "MaxDistanceToTheMetroStation": 4829.281572638676,
+                "SchoolsNumberPerCapita": 0.004700238916883356,
+                "BestRatingOfTheLocalUniversity": 3411,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [3, 5]
+              }
+            },
+            {
+              "Title": "Косино-Ухтомский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 814148.5288991353,
+                "MaxDistanceToTheMetroStation": 7751.175062149379,
+                "SchoolsNumberPerCapita": 0.008255237150124852,
+                "BestRatingOfTheLocalUniversity": 879,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Некрасовка",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1312209.5918060325,
+                "MaxDistanceToTheMetroStation": 5265.374304850295,
+                "SchoolsNumberPerCapita": 0.0021149296048632495,
+                "BestRatingOfTheLocalUniversity": 660,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Восточный",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1716850.5596168574,
+                "MaxDistanceToTheMetroStation": 3445.131390097147,
+                "SchoolsNumberPerCapita": 0.0031608258426007005,
+                "BestRatingOfTheLocalUniversity": 2640,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": []
+              }
+            }
+          ],
+          "Attributes": null
+        },
+        {
+          "Title": "ЮВАО",
+          "Children": [
+            {
+              "Title": "Лефортово",
+              "Children": [
+                {
+                  "Title": "Район \u0027Лефортово\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1966242.3968902985,
+                    "MaxDistanceToTheMetroStation": 1283.169531395272,
+                    "SchoolsNumberPerCapita": 0.00903077038611787,
+                    "BestRatingOfTheLocalUniversity": 1739,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": []
+                  }
+                },
+                {
+                  "Title": "Парк \u0027Лефортово\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 523472.756242134,
+                    "MaxDistanceToTheMetroStation": 4568.29862462743,
+                    "SchoolsNumberPerCapita": 0.0095432472888116,
+                    "BestRatingOfTheLocalUniversity": 1360,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [0, 1, 2, 3, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Южнопортовый",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 399785.0437275064,
+                "MaxDistanceToTheMetroStation": 7749.079309752714,
+                "SchoolsNumberPerCapita": 0.0015274916195904334,
+                "BestRatingOfTheLocalUniversity": 4673,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Нижегородский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 86473.05367815917,
+                "MaxDistanceToTheMetroStation": 9646.639824680351,
+                "SchoolsNumberPerCapita": 0.001402995605675036,
+                "BestRatingOfTheLocalUniversity": 1258,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [1, 2, 3, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Текстильщики",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 529595.3308463076,
+                "MaxDistanceToTheMetroStation": 2186.1554557393097,
+                "SchoolsNumberPerCapita": 0.003675041441188679,
+                "BestRatingOfTheLocalUniversity": 1090,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5]
+              }
+            },
+            {
+              "Title": "Печатники",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1421487.9527229294,
+                "MaxDistanceToTheMetroStation": 8676.046638598687,
+                "SchoolsNumberPerCapita": 0.0010167185943651565,
+                "BestRatingOfTheLocalUniversity": 3838,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5]
+              }
+            },
+            {
+              "Title": "Рязанский",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1755399.1355911824,
+                "MaxDistanceToTheMetroStation": 3617.578553789099,
+                "SchoolsNumberPerCapita": 0.0033509339906046794,
+                "BestRatingOfTheLocalUniversity": 4296,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [1, 2, 3, 5, 6]
+              }
+            },
+            {
+              "Title": "Кузьминки",
+              "Children": [
+                {
+                  "Title": "Район \u0027Кузьминки\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 178622.02501791625,
+                    "MaxDistanceToTheMetroStation": 8627.774780442833,
+                    "SchoolsNumberPerCapita": 0.0018819225411312295,
+                    "BestRatingOfTheLocalUniversity": 4280,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": []
+                  }
+                },
+                {
+                  "Title": "Лесопарк \u0027Кузьминки\u0027",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 390775.2078728635,
+                    "MaxDistanceToTheMetroStation": 1207.6035855373384,
+                    "SchoolsNumberPerCapita": 0.005308507050531222,
+                    "BestRatingOfTheLocalUniversity": 4495,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [3, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Люблино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1831841.3815236844,
+                "MaxDistanceToTheMetroStation": 1498.0233123051112,
+                "SchoolsNumberPerCapita": 0.00473360063914843,
+                "BestRatingOfTheLocalUniversity": 519,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 3, 4, 5]
+              }
+            },
+            {
+              "Title": "Марьино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 690315.8154386635,
+                "MaxDistanceToTheMetroStation": 5404.449696375266,
+                "SchoolsNumberPerCapita": 0.001348867852403255,
+                "BestRatingOfTheLocalUniversity": 3207,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Выхино-Жулебино",
+              "Children": [
+                {
+                  "Title": "Выхино",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1255861.586823995,
+                    "MaxDistanceToTheMetroStation": 7097.259578340342,
+                    "SchoolsNumberPerCapita": 0.00960405771555568,
+                    "BestRatingOfTheLocalUniversity": 2286,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": []
+                  }
+                },
+                {
+                  "Title": "Жулебино",
+                  "Children": [],
+                  "Attributes": {
+                    "AvgPricePerSquareMeter": 1198033.5574587963,
+                    "MaxDistanceToTheMetroStation": 5897.993283764456,
+                    "SchoolsNumberPerCapita": 0.009866722647504288,
+                    "BestRatingOfTheLocalUniversity": 558,
+                    "AreThereAnyHeritageSites": false,
+                    "SpecificArchitecturalStyles": [1, 3, 4, 6]
+                  }
+                }
+              ],
+              "Attributes": null
+            },
+            {
+              "Title": "Капотня",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 128814.03172799108,
+                "MaxDistanceToTheMetroStation": 3066.9840327775964,
+                "SchoolsNumberPerCapita": 0.0037817520414394107,
+                "BestRatingOfTheLocalUniversity": 3478,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 3, 5]
+              }
+            }
+          ],
+          "Attributes": null
+        },
+        {
+          "Title": "Зеленоград",
+          "Children": [
+            {
+              "Title": "Крюково",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1844871.903920952,
+                "MaxDistanceToTheMetroStation": 3786.2314771796723,
+                "SchoolsNumberPerCapita": 0.002890885879700485,
+                "BestRatingOfTheLocalUniversity": 1839,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [5]
+              }
+            },
+            {
+              "Title": "Матушкино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 1066883.3466371908,
+                "MaxDistanceToTheMetroStation": 3440.665155854386,
+                "SchoolsNumberPerCapita": 0.009830847519371123,
+                "BestRatingOfTheLocalUniversity": 3813,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [0, 1, 2, 4, 5, 6]
+              }
+            },
+            {
+              "Title": "Савелки",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 238109.51117338124,
+                "MaxDistanceToTheMetroStation": 1470.0748158945119,
+                "SchoolsNumberPerCapita": 0.007575756048586106,
+                "BestRatingOfTheLocalUniversity": 1639,
+                "AreThereAnyHeritageSites": false,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Силино",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 286881.6025773443,
+                "MaxDistanceToTheMetroStation": 6610.316173923349,
+                "SchoolsNumberPerCapita": 0.007080491170324614,
+                "BestRatingOfTheLocalUniversity": 4429,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": []
+              }
+            },
+            {
+              "Title": "Старое Крюково",
+              "Children": [],
+              "Attributes": {
+                "AvgPricePerSquareMeter": 721364.9635954597,
+                "MaxDistanceToTheMetroStation": 8119.304121527496,
+                "SchoolsNumberPerCapita": 0.0054078611644952845,
+                "BestRatingOfTheLocalUniversity": 1058,
+                "AreThereAnyHeritageSites": true,
+                "SpecificArchitecturalStyles": [5]
+              }
+            }
+          ],
+          "Attributes": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "Attributes": null
+}
