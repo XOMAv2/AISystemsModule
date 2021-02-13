@@ -34,6 +34,8 @@
                 <ColumnDefinition Width="24" />
                 <ColumnDefinition Width="auto" />
                 <ColumnDefinition Width="24" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="24" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
@@ -198,19 +200,9 @@
                         Text="Коллаборативной фильтрация"
                         Style="{StaticResource BodyTextBlockStyle}" />
 
-                    <ListBox ItemsSource="{Binding CollabRecommendations}">
-                        <ListBox.ItemTemplate>
-                            <DataTemplate>
-                                <DockPanel Width="386">
-                                    <TextBlock
-                                        Text="{Binding Title}"
-                                        Width="auto"
-                                        Margin="4"
-                                        Style="{StaticResource BodyTextBlockStyle}" />
-                                </DockPanel>
-                            </DataTemplate>
-                        </ListBox.ItemTemplate>
-                    </ListBox>
+                    <uc:NodeList
+                        Nodes="{Binding CollabRecommendations}"
+                        ShowCollabScore="true" />
 
                     <StackPanel
                         Orientation="Horizontal"
@@ -232,26 +224,9 @@
                         Text="Контентно-ориентированная фильтрация"
                         Style="{StaticResource BodyTextBlockStyle}" />
 
-                    <ListBox ItemsSource="{Binding ContentRecommendations}">
-                        <ListBox.ItemTemplate>
-                            <DataTemplate>
-                                <DockPanel Width="386">
-                                    <TextBlock
-                                        Text="{Binding Distance}"
-                                        Width="auto"
-                                        Margin="4"
-                                        DockPanel.Dock="Right"
-                                        VerticalAlignment="Center"
-                                        Style="{StaticResource BodyTextBlockStyle}" />
-                                    <TextBlock
-                                        Text="{Binding Title}"
-                                        Width="auto"
-                                        Margin="4 4 0 4"
-                                        Style="{StaticResource BodyTextBlockStyle}" />
-                                </DockPanel>
-                            </DataTemplate>
-                        </ListBox.ItemTemplate>
-                    </ListBox>
+                    <uc:NodeList
+                        Nodes="{Binding ContentRecommendations}"
+                        ShowContentScore="true" />
 
                     <StackPanel
                         Orientation="Horizontal"
@@ -365,29 +340,73 @@
                             Margin="28 24 0 0"
                             Command="{Binding SearchCommand}" />
                     </StackPanel>
-                    
-                    <ListBox
+
+                    <uc:NodeList
                         Margin="0 24 0 24"
-                        ItemsSource="{Binding SearchResults}">
-                        <ListBox.ItemTemplate>
-                            <DataTemplate>
-                                <DockPanel Width="386">
-                                    <TextBlock
-                                        Text="{Binding Beans}"
-                                        Width="auto"
-                                        Margin="4"
-                                        DockPanel.Dock="Right"
-                                        VerticalAlignment="Center"
-                                        Style="{StaticResource BodyTextBlockStyle}"/>
-                                    <TextBlock
-                                        Text="{Binding Title}"
-                                        Width="auto"
-                                        Margin="4 4 0 4"
-                                        Style="{StaticResource BodyTextBlockStyle}" />
-                                </DockPanel>
-                            </DataTemplate>
-                        </ListBox.ItemTemplate>
-                    </ListBox>
+                        Nodes="{Binding SearchResults}"
+                        ShowParametricScore="true" />
+                </StackPanel>
+            </ScrollViewer>
+
+            <ScrollViewer
+                Grid.Column="11"
+                HorizontalScrollBarVisibility="Disabled"
+                VerticalScrollBarVisibility="Auto">
+
+                <StackPanel>
+                    <TextBlock
+                        Text="Гибридная рекомендательная система"
+                        Style="{StaticResource TitleTextBlockStyle}" />
+
+                    <TextBlock
+                        Text="Используемые компоненты"
+                        Style="{StaticResource BodyTextBlockStyle}" />
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox
+                            Margin="0 6 0 0"
+                            IsChecked="{Binding CollabInUse}" />
+                        <TextBlock
+                            Text="Коллаборативная фильтрация"
+                            Margin="4 4 0 0"
+                            Width="auto"
+                            Style="{StaticResource BodyTextBlockStyle}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox
+                            Margin="0 6 0 0"
+                            IsChecked="{Binding ContentInUse}" />
+                        <TextBlock
+                            Text="Контентно-ориентированная фильтрация"
+                            Margin="4 4 0 0"
+                            Width="auto"
+                            Style="{StaticResource BodyTextBlockStyle}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox
+                            Margin="0 6 0 0"
+                            IsChecked="{Binding ParametricInUse}" />
+                        <TextBlock
+                            Text="Параметрический поиск"
+                            Margin="4 4 0 0"
+                            Width="auto"
+                            Style="{StaticResource BodyTextBlockStyle}" />
+                    </StackPanel>
+
+                    <StackPanel
+                        Orientation="Horizontal"
+                        FlowDirection="RightToLeft">
+                        <Button
+                            Content=" Обновить "
+                            Margin="0 24 0 0"
+                            Command="{Binding HybridRefreshCommand}" />
+                    </StackPanel>
+
+                    <uc:NodeList
+                        Margin="0 24 0 24"
+                        Nodes="{Binding HybridResult}"
+                        ShowCollabScore="{Binding CollabInUse}"
+                        ShowContentScore="{Binding ContentInUse}"
+                        ShowParametricScore="{Binding ParametricInUse}" />
                 </StackPanel>
             </ScrollViewer>
         </Grid>

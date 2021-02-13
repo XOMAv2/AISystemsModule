@@ -26,6 +26,7 @@ namespace AISystemsModule.ViewModels
         private ICommand collabRefreshCommand;
         private ICommand contentRefreshCommand;
         private ICommand searchCommand;
+        private ICommand hybridRefreshCommand;
 
         public ICommand OpenFileDialogCommand => openFileDialogCommand ??= new RelayCommand<object>(_ =>
         {
@@ -167,6 +168,61 @@ namespace AISystemsModule.ViewModels
                     .ToHashSet()
             ));
             SearchResults = new ObservableCollection<Node>(result);
+        });
+
+        public ICommand HybridRefreshCommand => hybridRefreshCommand ??= new RelayCommand<object>(_ =>
+        {
+            if ((CollabInUse || ContentInUse) && CurrentUser == null)
+            {
+                MessageBox.Show("Не удалось сгенерировать рекомендации, так как не выбран целевой пользователь.");
+                return;
+            }
+
+            if (ContentInUse && CurrentUser.Chosen.Count == 0)
+            {
+                MessageBox.Show("Не удалось сгенерировать рекомендации, так как пользователь не выбрал ни одной ноды.");
+                return;
+            }
+
+            SearchRanges? sp = ParametricInUse
+                ? new SearchRanges(
+                    avgPricePerSquareMeter: new Models.Range(AvgPriceFrom, AvgPriceTo),
+                    maxDistanceToTheMetroStation: new Models.Range(MaxMetroDistanceFrom, MaxMetroDistanceTo),
+                    schoolsNumberPerCapita: new Models.Range(SchoolsNumberFrom, SchoolsNumberTo),
+                    bestRatingOfTheLocalUniversity: new Models.Range(BestUniversityRatingFrom, BestUniversityRatingTo),
+                    areThereAnyHeritageSites: SelectedHeritageOption,
+                    specificArchitecturalStyles: SelectedArchStyles
+                        ?.Select(s => ArchitecturalStyleExtension.GetValueByDescription(s))
+                        .Where(s => s != null)
+                        .Select(s => (ArchitecturalStyle)s)
+                        .ToHashSet())
+                : null;
+
+            List<Node> result = (CollabInUse, ContentInUse, ParametricInUse) switch
+            {
+                (false, false, false) => new List<Node>(),
+                (true,  false, false) => Recommendations.GenerateCollabRecommendations(Users, CurrentUser),
+                (false, true,  false) => Recommendations.GenerateContentRecommendations(MoscowTree, CurrentUser, selectedMeasureType),
+                (true,  true,  false) => Recommendations.GenerateContentRecommendations(
+                    Recommendations.GenerateCollabRecommendations(Users, CurrentUser),
+                    CurrentUser,
+                    selectedMeasureType),
+                (false, false, true) => Searches.ParametricSearch(MoscowTree, sp),
+                (true,  false, true) => Searches.ParametricSearch(
+                    Recommendations.GenerateCollabRecommendations(Users, CurrentUser),
+                    sp),
+                (false, true,  true) => Searches.ParametricSearch(
+                    Recommendations.GenerateContentRecommendations(MoscowTree, CurrentUser, selectedMeasureType),
+                    sp),
+                (true,  true,  true) => Searches.ParametricSearch(
+                    Recommendations.GenerateContentRecommendations(
+                        Recommendations.GenerateCollabRecommendations(Users, CurrentUser),
+                        CurrentUser,
+                        selectedMeasureType),
+                    sp),
+            };
+
+            HybridResult = new ObservableCollection<Node>(result);
         });
     }
 }

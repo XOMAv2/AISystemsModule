@@ -50,6 +50,10 @@ namespace AISystemsModule.ViewModels
         private string selectedHeritageOptionString = "Не важно";
         private ObservableCollection<string>? selectedArchStyles;
         private ObservableCollection<Node>? searchResults;
+        private bool collabInUse = true;
+        private bool contentInUse = true;
+        private bool parametricInUse = true;
+        private ObservableCollection<Node>? hybridResult;
 
         public MainViewModel()
         {
@@ -352,6 +356,30 @@ namespace AISystemsModule.ViewModels
         {
             get => searchResults;
             set => Set(ref searchResults, value);
+        }
+
+        public bool CollabInUse
+        {
+            get => collabInUse;
+            set => Set(ref collabInUse, value);
+        }
+
+        public bool ContentInUse
+        {
+            get => contentInUse;
+            set => Set(ref contentInUse, value);
+        }
+
+        public bool ParametricInUse
+        {
+            get => parametricInUse;
+            set => Set(ref parametricInUse, value);
+        }
+
+        public ObservableCollection<Node>? HybridResult
+        {
+            get => hybridResult;
+            set => Set(ref hybridResult, value);
         }
     }
 }
