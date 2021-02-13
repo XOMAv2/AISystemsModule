@@ -68,7 +68,7 @@
                                 VerticalAlignment="Center"
                                 Style="{StaticResource BodyTextBlockStyle}">
                                 <TextBlock
-                                    Text="_"
+                                    Text="{Binding Rate}"
                                     FontStyle="Normal"
                                     Foreground="Black" />
                             </TextBlock>

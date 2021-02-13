@@ -20,6 +20,10 @@ namespace AISystemsModule.Helpers
 
             foreach (User user in usersByRate)
             {
+                // Для отображения в UI числа совпавших нод между текущим пользователем
+                // и каждым другим пользователем.
+                user.Chosen.Select(n => n.Rate = user.Rate).Count();
+
                 recommendations.AddRange(user.Chosen.Except(currentUser.Chosen));
             }
 

@@ -12,6 +12,7 @@ namespace AISystemsModule.Models
         private NodeAttributes? attributes;
         private double distance = 0;
         private int beans = 0;
+        private int rate = 0;
 
         public Node() => (Title, Children) = ("node", new List<Node>());
 
@@ -70,6 +71,17 @@ namespace AISystemsModule.Models
         {
             get => beans;
             set => Set(ref beans, value);
+        }
+
+        /// <summary>
+        /// Для отображения в UI числа совпавших нод между текущим пользователем
+        /// и каждым другим пользователем.
+        /// </summary>
+        [JsonIgnore]
+        public int Rate
+        {
+            get => rate;
+            set => Set(ref rate, value);
         }
     }
 }
