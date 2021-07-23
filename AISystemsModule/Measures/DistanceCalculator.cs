@@ -1,4 +1,5 @@
-﻿using AISystemsModule.Models;
+﻿using AISystemsModule.Extensions;
+using AISystemsModule.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,7 @@ namespace AISystemsModule.Measures
         }
 
         /// <summary> Евклидово расстояние. </summary>
-        public static double CalculateEuclideanDistance(Node x, Node y)
+        public static double CalculateEuclideanDistance2(Node x, Node y)
         {
             NodeAttributes n1 = x.Attributes ?? new NodeAttributes();
             NodeAttributes n2 = y.Attributes ?? new NodeAttributes();
@@ -36,6 +37,46 @@ namespace AISystemsModule.Measures
             double a2 = Math.Pow(n1.MaxDistanceToTheMetroStation - n2.MaxDistanceToTheMetroStation, 2);
             double a3 = Math.Pow(n1.SchoolsNumberPerCapita - n2.SchoolsNumberPerCapita, 2);
             double a4 = Math.Pow(n1.BestRatingOfTheLocalUniversity - n2.BestRatingOfTheLocalUniversity, 2);
+            double a5 = Math.Pow((n1.AreThereAnyHeritageSites ? 1 : 0) - (n2.AreThereAnyHeritageSites ? 1 : 0), 2);
+
+            return Math.Sqrt(a1 + a2 + a3 + a4 + a5);
+        }
+
+        /// <summary> Евклидово расстояние (нормализацию писал на защите). </summary>
+        public static double CalculateEuclideanDistance(Node x, Node y)
+        {
+            // Взято из проекта DataGenerator.
+            (double Min, double Max) avgPriceRange = (40000, 2000000);
+            (double Min, double Max) maxDistanceRange = (1000, 10000);
+            (double Min, double Max) schoolsNumberRange = (0.001, 0.01);
+            (int Min, int Max) universityRatingRange = (100, 5000);
+
+            NodeAttributes n1 = x.Attributes ?? new NodeAttributes();
+            /*
+            Что это?
+            Какие свойства?
+            Чем различаются?
+            Описание языка?
+            Что *логические*?
+            */
+            NodeAttributes n2 = y.Attributes ?? new NodeAttributes();
+
+            double a1 = Math.Pow(
+                n1.AvgPricePerSquareMeter.Normalize(avgPriceRange.Min, avgPriceRange.Max)
+                - n2.AvgPricePerSquareMeter.Normalize(avgPriceRange.Min, avgPriceRange.Max),
+                2);
+            double a2 = Math.Pow(
+                n1.MaxDistanceToTheMetroStation.Normalize(maxDistanceRange.Min, maxDistanceRange.Max)
+                - n2.MaxDistanceToTheMetroStation.Normalize(maxDistanceRange.Min, maxDistanceRange.Max),
+                2);
+            double a3 = Math.Pow(
+                n1.SchoolsNumberPerCapita.Normalize(schoolsNumberRange.Min, schoolsNumberRange.Max)
+                - n2.SchoolsNumberPerCapita.Normalize(schoolsNumberRange.Min, schoolsNumberRange.Max),
+                2);
+            double a4 = Math.Pow(
+                n1.BestRatingOfTheLocalUniversity.Normalize(universityRatingRange.Min, universityRatingRange.Max)
+                - n2.BestRatingOfTheLocalUniversity.Normalize(universityRatingRange.Min, universityRatingRange.Max),
+                2);
             double a5 = Math.Pow((n1.AreThereAnyHeritageSites ? 1 : 0) - (n2.AreThereAnyHeritageSites ? 1 : 0), 2);
 
             return Math.Sqrt(a1 + a2 + a3 + a4 + a5);
